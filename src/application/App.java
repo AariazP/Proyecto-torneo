@@ -10,6 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         torneo = new Torneo();
+        crearEnfrentamientos();
         Juez juez = new Juez();
         juez.setNombre("Juez 1");
         juez.setLicencia("1");
@@ -32,4 +33,13 @@ public class App {
            }
         }
     }
+
+
+    public static void crearEnfrentamientos(){
+        System.out.println("Creando torneos...");
+    }
+
+
 }
+
+
